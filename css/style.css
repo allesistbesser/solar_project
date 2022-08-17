@@ -4268,6 +4268,8 @@ border-radius: 10px;
 /* 20. footer */
 .f-widget-title img {
     width: auto;
+    opacity: 0.8;
+    border-radius: 30px;
 }
 .footer-top-heiding .container {
     border-bottom: 1px dashed #FFFFFF7A;
