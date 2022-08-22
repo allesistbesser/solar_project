@@ -26,17 +26,17 @@
 
 <body>
     <!-- header -->
-    <header class="header-area header-three" style="position: fixed;z-index: 30; width: 100%;">
+    <header class="header-area header-three">
         <div class="header-top second-header d-none d-md-block" >
             <div class="container" >
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-8 d-none  d-md-block">
+                <div class="row align-items-center" style="position: relative;left: 18%;">
+                    <div class="col-lg-6 col-md-6 d-none  d-md-block">
                         <div class="header-cta">
                             <ul >
                                 <li>
                                     <i class="fas fa-envelope"></i>
 
-                                    <span>info@example.com</span>
+                                    <span>Minisolarsysteme@gmail.com</span>
                                 </li>
                                 <li>
                                     <i class="far fa-map-marker-alt"></i>
@@ -45,7 +45,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 d-none d-lg-block">
+                    <div class="col-lg-4 col-md-4 d-none d-lg-block">
                         <div class="header-social text-right">
                             <span>
                                 <a href="#" title="Facebook"><i class="fab fa-facebook white-color"></i></a>
@@ -60,41 +60,49 @@
             </div>
         </div>
         <div id="header-sticky" class="menu-area" >
-            <div class="container">
+            <div class="container" >
                 <div class="second-menu">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center" >
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="./img/logo/logo3.png" alt="logo"></a>
+                                <a href="index.html"><img id="logo1"src="./img/logo/logo4.png" alt="logo"></a>
+                                
+                                <a href="index.html"><img id="logo2"src="./img/logo/logo5.png" alt="logo"></a>
+                                               
                             </div>
-                        </div>
+                           
+                       </div>
                         <div class="col-xl-7 col-lg-7">
 
                             <div class="main-menu text-right text-xl-right">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-sub">
+                                        <!-- <li class="has-sub">
                                             <a href="index.html">Home</a>
                                             <ul>
                                                 <li><a href="index.html">Home Page 01</a></li>
                                                 <li><a href="index-2.html">Home Page 02</a></li>
 
                                             </ul>
-                                        </li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li class="has-sub"><a href="#">Pages</a>
+                                        </li> -->
+                                        <li><a href="about.html">Über uns</a></li>
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="faq.html">F&A</a></li>
+                                        <li><a href="contact.html">Kontakt</a></li>
+                                                
+                                        <!-- <li class="has-sub"><a href="#">Pages</a>
                                             <ul>
                                                 <li><a href="projects.html">Project</a></li>
                                                 <li><a href="projects-detail.html">Project Details</a></li>
 
                                                 <li><a href="pricing.html">Pricing</a></li>
                                                 <li><a href="team.html">Team</a></li>
-                                                <li><a href="faq.html">Faq</a></li>
-                                                <li><a href="shop.html">Shop</a></li>
+                                                
                                                 <li><a href="shop-details.html">Shop Details</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
+                                        
                                         <li class="has-sub">
                                             <a href="services.html">Services</a>
                                             <ul>
@@ -103,13 +111,13 @@
                                             </ul>
                                         </li>
 
-                                        <li class="has-sub">
+                                        <!-- <li class="has-sub">
                                             <a href="blog.html">Blog</a>
                                             <ul>
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
 
 
 
@@ -121,7 +129,7 @@
                             <a href="contact.html" class="menu-tigger"><i class="fal fa-search"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-2 text-right d-none d-lg-block mt-15 mb-15">
-                            <a href="contact.html" class="btn ss-btn">Get A Quote</a>
+                            <a href="contact.html" class="btn ss-btn">Angebot</a>
                         </div>
 
 
@@ -177,8 +185,9 @@
     <!-- offcanvas-end -->
 
     <!-- main-area -->
+    
     <main>
-
+        
         <!-- search-popup -->
         <div class="modal fade bs-example-modal-lg search-bg popup1" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
@@ -197,6 +206,7 @@
         <!-- /search-popup -->
         <!-- slider-area -->
         <section id="home" class="slider-area slider-four fix p-relative">
+            
 
             <div class="slider-active">
                 <div class="single-slider slider-bg d-flex align-items-center"
@@ -204,15 +214,14 @@
                     <div class="container">
                         <div class="row justify-content-center pt-50">
                             <div class="col-lg-7 col-md-7">
-                                <div class="slider-content s-slider-content mt-150">
+                                <div class="slider-content s-slider-content mt-80">
+                                    <!-- <h4 class="d-md-none d-lg-none d-sm-none text-dark">MINI SOLAR SYSTEME</h4> -->
                                     <h5 data-animation="fadeInDown" data-delay=".4s">HERZLICH WILLKOMMEN </h5>
                                     <h2 data-animation="fadeInUp" data-delay=".4s">Wir bieten Solar Energiequelle</h2>
-                                    <p data-animation="fadeInUp" data-delay=".6s">Curabitur nec laoreet nulla. Mauris
-                                        aliquam malesuada nibh, sodales ullamp sapien imperdiet vel. Vestibulum
-                                        fringilla purus metus.</p>
+                                    <h4 data-animation="fadeInUp" data-delay=".6s">Strom sparen beginnt auf dem Balkon oder Garten. Mit den Minisolarsysteme können Sie sofort grünen Strom gewinnen und dabei ordentlich Strom sparen. Der Aufbau war noch nie so einfach - keine Werkzeuge oder Heimwerker-Fähifkeiten erforderlich.</h4>
 
                                     <div class="slider-btn mt-30">
-                                        <a href="services.html" class="btn ss-btn mr-15">Read More</a>
+                                        <!-- <a href="services.html" class="btn ss-btn mr-15">Read More</a> -->
                                         <a href="services.html" class="btn ss-btn active">Contact Us</a>
                                     </div>
 
@@ -221,7 +230,7 @@
                             </div>
                             <div class="col-lg-5 col-md-5">
                                 <div class="slider-img" data-animation="fadeInUp" data-delay=".4s">
-                                    <img src="./img/bg/slider1.png" alt="slider_img05">
+                                    <img src="./img/bg/slider2.png" alt="slider_img05">
                                 </div>
                             </div>
                         </div>
@@ -234,7 +243,7 @@
         </section>
         <!-- slider-area-end -->
         <!-- about-area -->
-        <section id="about" class="about-area about-p pt-120 pb-130 p-relative"
+        <!-- <section id="about" class="about-area about-p pt-120 pb-130 p-relative"
             style="background: url(img/bg/aliment-right.png) no-repeat; background-position: right center;">
             <div class="container">
                 <div class="row align-items-center">
@@ -296,7 +305,7 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- about-area-end -->
         <!-- services-three-area -->
         <section id="services-08" class="services-08 pb-120 p-relative"
@@ -305,9 +314,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title center-align mb-50 text-center">
-                            <h5>OUR SERVICES</h5>
+                            <h5>UNSERE LEISTUNGEN</h5>
                             <h2>
-                                What We Offer
+                                Was wir anbieten
                             </h2>
 
                         </div>
@@ -322,7 +331,7 @@
                                 <i class="flaticon flaticon-customer-support"></i>
                             </div>
                             <div class="services-08-content">
-                                <h3><a href="services-detail.html"> Technical Services</a> </h3>
+                                <h3><a href="services-detail.html"> Technische Dienstleistungen</a> </h3>
                                 <p>Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor
                                     mi, volutpat a iaculis sit amet.</p>
                             </div>
@@ -334,13 +343,13 @@
                                 <i class="flaticon flaticon-solar-panel"></i>
                             </div>
                             <div class="services-08-content">
-                                <h3><a href="services-detail.html"> Energy Panels</a></h3>
+                                <h3><a href="services-detail.html"> Energie Panels</a></h3>
                                 <p>Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor
                                     mi, volutpat a iaculis sit amet.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <!-- <div class="col-lg-4 col-md-4">
                         <div class="services-08-item">
                             <div class="services-08-thumb">
                                 <i class="flaticon flaticon-wind-energy"></i>
@@ -351,7 +360,7 @@
                                     mi, volutpat a iaculis sit amet.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
                 </div>
@@ -369,7 +378,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <!-- <div class="col-lg-4 col-md-4">
                         <div class="services-08-item">
                             <div class="services-08-thumb">
                                 <i class="flaticon flaticon-charging-station"></i>
@@ -380,7 +389,7 @@
                                     mi, volutpat a iaculis sit amet.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-4 col-md-4">
                         <div class="services-08-item">
                             <div class="services-08-thumb">
@@ -403,7 +412,7 @@
 
 
         <!-- counter-area -->
-        <div class="counter-area p-relative pt-80 pb-80" style="background: url(img/bg/counter-bg.png) repeat-x;">
+        <!-- <div class="counter-area p-relative pt-80 pb-80" style="background: url(img/bg/counter-bg.png) repeat-x;">
             <div class="container">
 
                 <div class="row">
@@ -480,7 +489,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- counter-area-end -->
 
         <!-- gallery-area -->
@@ -490,9 +499,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title center-align mb-50 text-center">
-                            <h5>PROJECTS DONE</h5>
+                            <h5>PROJEKTE ABGESCHLOSSEN</h5>
                             <h2>
-                                Our Portfolio
+                                Unser Portfolio
                             </h2>
 
                         </div>
@@ -596,7 +605,7 @@
         </section>
         <!-- gallery-area-end -->
         <!-- pricing-area -->
-        <section id="pricing" class="pricing-area pb-60"
+        <!-- <section id="pricing" class="pricing-area pb-60"
             style="background: url(img/bg/aliment-left.png) no-repeat; background-position: left center;">
             <div class="container">
                 <div class="row">
@@ -725,14 +734,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- pricing-area-end -->
         <!-- video-area -->
-        <section id="video" class="video-area about-p p-relative" style="background-color: #010f2e;">
-            <div class="container">
+        <section id="video" class="container video-area about-p p-relative" style="background-color: #010f2e;width: max-content;">
+            <div class="container" >
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="s-video-wrap" style="background-image:url(img/bg/video-img.png)">
+                        <div class="s-video-wrap" style="background-image:url(img/bg/video-img.png);">
                             <div class="s-video-content">
                                 <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-video mb-50"><img
                                         src="img/bg/play-button.png" alt="circle_right"></a>
@@ -742,9 +751,9 @@
                     </div>
                     <div class="col-lg-6 p-relative pl-70">
                         <div class="section-title">
-                            <H5>WORK FLOW</H5>
+                            <H5>ARBEITSABLAUF</H5>
                             <h2>
-                                How We Work
+                                Wie wir arbeiten
                             </h2>
                         </div>
 
@@ -790,7 +799,7 @@
         </section>
         <!-- video-area-end -->
         <!-- team-area -->
-        <section id="team" class="team-area2 pt-120 pb-100"
+        <!-- <section id="team" class="team-area2 pt-120 pb-100"
             style="background: url(img/bg/aliment-right3.png) no-repeat; background-position: right center;">
             <div class="container">
 
@@ -892,13 +901,13 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- team-area-end -->
 
 
 
         <!-- testimonial-area -->
-        <section class="testimonial-area pb-90"
+        <!-- <section class="testimonial-area pb-90"
             style="background: url(img/bg/aliment-left2.png) no-repeat; background-position: left center;">
             <div class="container">
                 <div class="row">
@@ -1009,11 +1018,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- testimonial-area-end -->
 
         <!-- features-area -->
-        <section id="graph" class="features-area pt-80 pb-80"
+        <!-- <section id="graph" class="features-area pt-80 pb-80"
             style="background:url('img/bg/cat-bg.png'); background-size: cover;">
             <div class="container">
 
@@ -1037,12 +1046,12 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- features-area-end -->
 
 
         <!-- blog-area -->
-        <section id="blog" class="blog-area  p-relative pt-120 pb-120 fix"
+        <!-- <section id="blog" class="blog-area  p-relative pt-120 pb-120 fix"
             style="background: url(img/bg/aliment-right4.png) no-repeat; background-position: right center;">
             <div class="container">
                 <div class="row align-items-center">
@@ -1190,7 +1199,7 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- blog-area-end -->
         <!-- brand-area -->
         <div class="brand-area pt-60 pb-60">
@@ -1237,7 +1246,7 @@
     <!-- main-area-end -->
     <!-- footer -->
     <footer class="footer-bg footer-p">
-        <div class="footer-top-heiding pt-70 pb-120">
+        <!-- <div class="footer-top-heiding pt-70 pb-120">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -1255,7 +1264,7 @@
                                         placeholder="Email Address..." value="" required="">
                                     <button type="submit" class="btn btn-custom" id="send2">Subscribe Now</button>
                                 </div>
-                                <!-- /Form-email -->
+                                /Form-email
                             </form>
                         </div>
 
@@ -1263,15 +1272,15 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <div class="footer-top pb-40">
-            <div class="container">
+            <div class="container pt-20">
                 <div class="row justify-content-between">
 
                     <div class="col-xl-3 col-lg-3 col-sm-6">
                         <div class="footer-widget mb-30">
                             <div class="f-widget-title mb-45">
-                                <img src="./img/logo/logo1.jpeg" alt="img">
+                                <img src="./img/logo/logo4.png" alt="img">
                             </div>
                             <div class="footer-link">
                                 Aenean pulvinar laoreet tellus ut tinct. Praesent a lectus egestas, finibus enim sit
@@ -1282,8 +1291,7 @@
 
                                     <li>
                                         <i class="icon fal fa-map-marker-check"></i>
-                                        <span>1247/Plot No. 39, 15th
-                                            Phase, Colony, Kanpur</span>
+                                        <span>32105 Bad Salzuflen , NRW</span>
                                     </li>
 
                                 </ul>
@@ -1296,19 +1304,20 @@
                     <div class="col-xl-3 col-lg-3 col-sm-6">
                         <div class="footer-widget mb-30">
                             <div class="f-widget-title">
-                                <h2>Our Links</h2>
+                                <h2>Links</h2>
                             </div>
                             <div class="footer-link">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html"> About Us</a></li>
+                                    <li><a href="index.html">Startseite</a></li>
+                                    <li><a href="about.html">Über uns</a></li>
                                     <li><a href="services.html"> Services </a></li>
-                                    <li><a href="#">Term</a></li>
+                                    <!-- <li><a href="#">Term</a></li>
                                     <li><a href="blog.html">Blog </a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
+                                    
+                                    <li><a href="#">Privercy</a></li> -->
                                     <li><a href="#">Support</a></li>
-                                    <li><a href="#">Privercy</a></li>
-                                    <li><a href="contact.html"> Contact Us</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="contact.html"> Kontakt</a></li>
 
                                 </ul>
                             </div>
@@ -1318,7 +1327,7 @@
 
                         <div class="footer-widget mb-30">
                             <div class="f-widget-title">
-                                <h2>Get In Touch</h2>
+                                <h2>Kontakt</h2>
                             </div>
                             <div class="f-contact">
                                 <ul>
@@ -1328,9 +1337,9 @@
                                     </li>
                                     <li><i class="icon fal fa-envelope"></i>
                                         <span>
-                                            <a href="mailto:info@example.com">info@example.com</a>
+                                            <a href="mailto:Minisolarsysteme@gmail.com">Minisolarsysteme@gmail.com</a>
                                             <br>
-                                            <a href="mailto:help@example.com">help@example.com</a>
+                                            <!-- <a href="mailto:help@example.com">help@example.com</a> -->
                                         </span>
                                     </li>
 
@@ -1340,7 +1349,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <!-- <div class="col-xl-3 col-lg-3 col-sm-6">
                         <div class="footer-widget mb-30">
                             <div class="f-widget-title">
                                 <h2>Our Gallery</h2>
@@ -1360,7 +1369,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
                 </div>
@@ -1374,9 +1383,9 @@
                     </div>
                     <div class="col-lg-6 text-right text-xl-right">
                         <ul>
-                            <li><a href="#">Privercy</a></li>
+                            <!-- <li><a href="#">Privercy</a></li>
                             <li><a href="#">Term &amp; Conditions</a></li>
-                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Legal</a></li> -->
                             <li> <span class="footer-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
