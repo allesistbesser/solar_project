@@ -269,13 +269,13 @@ label {
 .logo {
     display: flex;
     flex-direction: row;
-    width: 20rem;
+    width: 10rem;
     align-items: center;
     height: 5rem;
 }
 
 .logo #logo1{
-    width: 90%;
+    width: 100%;
    
 }
 .logo #logo2{
@@ -287,7 +287,7 @@ label {
 
 .btn {
     -moz-user-select: none;
-    background: transparent linear-gradient(90deg, #ff8a010%, #ff8a01100%) 0% 0% no-repeat padding-box;
+    /* background: linear-gradient(90deg, #ff8a010%, #ff8a01100%) 0% 0% no-repeat padding-box; */
     border: none;
     color: #fff;
     display: inline-block;
@@ -457,7 +457,7 @@ label {
 .main-menu ul li a {
     display: block;
     color: #4f4f4f;
-    font-weight: 600;
+    font-weight: 900;
     padding: 20px 0;
     position: relative;
     font-size: 16px;
@@ -465,6 +465,9 @@ label {
 
 .main-menu ul li:first-child {
     margin-left: 0;
+}
+.menu-area{
+    
 }
 
 .menu-area .menu-tigger {
@@ -483,7 +486,7 @@ label {
 
 .main-menu ul li:hover>a,
 .header-three .main-menu ul li a:hover {
-    color: #76c21b;
+    color: rgb(116, 212, 31);
 }
 
 .main-menu ul li:hover>a::before {
@@ -573,8 +576,10 @@ label {
 
 #mobile-menu {
     display: block;
-    
-}
+ }
+ #mobile-menu a{
+    font-size: 1.2rem;
+ }
 
 .right-menu li {
     float: right;
@@ -727,7 +732,7 @@ label {
 .second-header {
     border: none;
     padding-bottom: 15px;
-    background-image: linear-gradient(rgb(44, 45, 41),rgb(121, 218, 46));
+    background-image: linear-gradient(rgb(36, 82, 1),rgb(191, 243, 146));
     padding-top: 15px;
     color: #000;
 }
@@ -929,11 +934,12 @@ label {
 .header-three {}
 
 .header-three .menu-area {
-    margin-bottom: -90px;
+    /* margin-bottom: -90px; */
     border-top: 0;
     position: relative;
-    z-index: 1;
-    background-color: white;
+    z-index: 5;
+    /* background-color: white; */
+    
 }
 
 .header-three .btn.ss-btn {
@@ -1084,7 +1090,8 @@ label {
     font-size: 48px;
     margin-bottom: 25px;
     line-height: 1;
-    color: #fff;
+    color: rgba(0, 0, 0, 0.813);
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8)
 }
 
 .breadcrumb-title p {
@@ -1333,7 +1340,7 @@ label {
 }
 
 .s-slider-content p {
-    font-size: 16px;
+    font-size: 22px;
     padding-right: 50px;
     color: #777;
     line-height: 26px;
@@ -2716,13 +2723,24 @@ section:hover .section-title h2::before {
     margin-bottom: 20px;
     font-size: 24px;
 }
+.services-08-content p{
+    font-size: 1.4rem;
+}
 
 .services-08-content,
 .services-08-thumb {
     position: relative;
     z-index: 1;
 }
-
+.services-08-content li{
+    list-style: outside;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.services-08-content ul,p{
+    margin: 2rem;
+}
 .services-08-item:before {
     position: absolute;
     content: '';
@@ -9538,6 +9556,9 @@ p.checkout-coupon input[type="text"] {
 @media only screen and (max-width: 990px) {
     .progress {
         margin-bottom: 20px;
+    }
+    .menu-area{
+        background-image: linear-gradient(rgb(121, 218, 46),white);
     }
 }
 
