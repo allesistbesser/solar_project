@@ -35,6 +35,7 @@ body {
     color: #777;
     font-style: normal;
     line-height: 26px;
+     
 }
 
 .mean-container a.meanmenu-reveal span {
@@ -266,21 +267,26 @@ label {
     border-top: 1px solid #f2f2f2
 }
 
-.logo {
+.menu-area .logo {
     display: flex;
     flex-direction: row;
-    width: 10rem;
     align-items: center;
     height: 5rem;
+    width: 20rem;
 }
 
-.logo #logo1{
-    width: 100%;
-   
+.logo h5 {
+    display: none;
 }
-.logo #logo2{
+
+.logo #logo1 {
+    width: 50%;
+
+}
+
+.logo #logo2 {
     width: 100%;
-    
+
 }
 
 /* button style */
@@ -367,7 +373,7 @@ label {
     padding-top: 40px;
     border-bottom: 1px solid #e6e6e6;
     padding-bottom: 30px;
-    background-image: linear-gradient(black,rgb(133, 127, 127));
+    background-image: linear-gradient(black, rgb(133, 127, 127));
 }
 
 .innder-ht {
@@ -408,7 +414,8 @@ label {
     line-height: 22px;
     text-align: center;
 }
-.header-cta ul li span{
+
+.header-cta ul li span {
     color: white;
 }
 
@@ -466,9 +473,8 @@ label {
 .main-menu ul li:first-child {
     margin-left: 0;
 }
-.menu-area{
-    
-}
+
+.menu-area {}
 
 .menu-area .menu-tigger {
     cursor: pointer;
@@ -516,7 +522,8 @@ label {
     text-align: center;
     color: #191D3B;
 }
-.header-social a span i{
+
+.header-social a span i {
     color: white;
 }
 
@@ -576,10 +583,11 @@ label {
 
 #mobile-menu {
     display: block;
- }
- #mobile-menu a{
+}
+
+#mobile-menu a {
     font-size: 1.2rem;
- }
+}
 
 .right-menu li {
     float: right;
@@ -729,10 +737,142 @@ label {
     background-position: center;
 }
 
+/* sn light */
+.sun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(245, 245, 25);
+    opacity: 0.9;
+    box-shadow: 0px 0px 40px 15px white;
+}
+
+.ray_box {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    -webkit-animation: ray_anim 60s linear infinite;
+    animation: ray_anim 60s linear infinite;
+}
+
+.ray {
+    background: -webkit-linear-gradient(top, rgba(246, 227, 17, 0.475) 0%, rgba(244, 204, 7, 0.9) 50%, rgba(244, 159, 39, 0.185) 100%);
+    background: linear-gradient(top, rgba(246, 227, 17, 0.475) 0%, rgba(244, 204, 7, 0.9) 50%, rgba(244, 159, 39, 0.185) 100%);
+    margin-left: 10px;
+    border-radius: 80% 80% 0 0;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.ray1 {
+    height: 170px;
+    width: 30px;
+    -webkit-transform: rotate(180deg);
+    top: -175px;
+    left: 15px;
+}
+
+.ray2 {
+    height: 100px;
+    width: 8px;
+    -webkit-transform: rotate(220deg);
+    top: -90px;
+    left: 75px;
+}
+
+.ray3 {
+    height: 170px;
+    width: 50px;
+    -webkit-transform: rotate(250deg);
+    top: -80px;
+    left: 100px;
+}
+
+.ray4 {
+    height: 120px;
+    width: 14px;
+    -webkit-transform: rotate(305deg);
+    top: 30px;
+    left: 100px;
+}
+
+.ray5 {
+    height: 140px;
+    width: 30px;
+    -webkit-transform: rotate(-15deg);
+    top: 60px;
+    left: 40px;
+}
+
+.ray6 {
+    height: 90px;
+    width: 50px;
+    -webkit-transform: rotate(30deg);
+    top: 60px;
+    left: -40px;
+}
+
+.ray7 {
+    height: 180px;
+    width: 10px;
+    -webkit-transform: rotate(70deg);
+    top: -35px;
+    left: -40px;
+}
+
+.ray8 {
+    height: 120px;
+    width: 30px;
+    -webkit-transform: rotate(100deg);
+    top: -45px;
+    left: -90px;
+}
+
+.ray9 {
+    height: 80px;
+    width: 10px;
+    -webkit-transform: rotate(120deg);
+    top: -65px;
+    left: -60px;
+}
+
+.ray10 {
+    height: 190px;
+    width: 23px;
+    -webkit-transform: rotate(150deg);
+    top: -185px;
+    left: -60px;
+}
+
+
+@-webkit-keyframes ray_anim {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/* sun light end */
+
 .second-header {
     border: none;
     padding-bottom: 15px;
-    background-image: linear-gradient(rgb(36, 82, 1),rgb(191, 243, 146));
+    background-image: linear-gradient(rgb(36, 82, 1), rgb(191, 243, 146));
     padding-top: 15px;
     color: #000;
 }
@@ -906,7 +1046,7 @@ label {
 
 .header-two .menu-area {
     padding-top: 0;
-    
+
 }
 
 .header-two .top-callus {
@@ -939,7 +1079,7 @@ label {
     position: relative;
     z-index: 5;
     /* background-color: white; */
-    
+
 }
 
 .header-three .btn.ss-btn {
@@ -1051,10 +1191,10 @@ label {
 .breadcrumb-area {
     background-size: cover;
     position: relative;
-    min-height: 400px;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-position: 0 center;
-    background: #444;
+    /* background: #444; */
 }
 
 .breadcrumb {
@@ -1087,11 +1227,11 @@ label {
 }
 
 .breadcrumb-title h2 {
-    font-size: 48px;
-    margin-bottom: 25px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.813);
-    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8)
+    margin-top: 2rem;
+   font-size: 58px;
+   line-height: 1;
+   color: white;
+   text-shadow: 8px 8px 7px black;
 }
 
 .breadcrumb-title p {
@@ -1198,6 +1338,41 @@ label {
     color: #fff;
     margin-left: 20px;
 }
+
+@media only screen and (max-width: 990px) {
+    .progress {
+        margin-bottom: 20px;
+    }
+
+    .menu-area {
+        background-image: linear-gradient(rgb(26, 39, 6), rgb(109, 174, 6));
+    }
+
+    #logo1 {
+        height: 90px;
+    }
+
+    .logo h5 {
+        font-size: 1.4rem;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 3px 4px black;
+        margin-left: 2rem;
+        letter-spacing: 3px;
+        
+    }
+
+    .logo #logo1 {
+        width: 100%;
+    }
+
+}
+
+/* @media only screen and (max-width: 500px){
+    .logo h5{
+        display: block;
+       }
+} */
 
 #particles-js {
     position: absolute;
@@ -1340,10 +1515,12 @@ label {
 }
 
 .s-slider-content p {
-    font-size: 22px;
+    font-size: 20px;
     padding-right: 50px;
     color: #777;
-    line-height: 26px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .btn.ss-btn {
@@ -1700,6 +1877,9 @@ label {
     left: inherit;
     right: 0;
     bottom: 0;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-shadow: 2px 5px 5px black;
 }
 
 .second-atitle>span {
@@ -1815,6 +1995,7 @@ label {
     padding: 10px 30px;
     border-radius: 30px;
     margin-top: 10px;
+
 }
 
 .progress-box .progress.blue .progress-bar {
@@ -2723,8 +2904,10 @@ section:hover .section-title h2::before {
     margin-bottom: 20px;
     font-size: 24px;
 }
-.services-08-content p{
-    font-size: 1.4rem;
+
+.services-08-content p {
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .services-08-content,
@@ -2732,15 +2915,19 @@ section:hover .section-title h2::before {
     position: relative;
     z-index: 1;
 }
-.services-08-content li{
+
+.services-08-content li {
     list-style: outside;
     margin-left: 2rem;
     font-size: 1.2rem;
     font-weight: 900;
 }
-.services-08-content ul,p{
+
+.services-08-content ul,
+p {
     margin: 2rem;
 }
+
 .services-08-item:before {
     position: absolute;
     content: '';
@@ -5171,8 +5358,8 @@ section:hover .section-title h2::before {
 
 /* 20. footer */
 .f-widget-title img {
-    width: auto;
-    opacity: 0.8;
+    width: 80%;
+    opacity: 0.9;
     border-radius: 30px;
 }
 
@@ -9553,14 +9740,7 @@ p.checkout-coupon input[type="text"] {
     }
 }
 
-@media only screen and (max-width: 990px) {
-    .progress {
-        margin-bottom: 20px;
-    }
-    .menu-area{
-        background-image: linear-gradient(rgb(121, 218, 46),white);
-    }
-}
+
 
 .conunter-img {
     margin-left: -400px;
