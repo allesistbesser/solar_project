@@ -1348,7 +1348,7 @@ label {
     }
 
     .menu-area {
-        background-image: linear-gradient(rgb(26, 39, 6), rgb(109, 174, 6));
+        background-image: linear-gradient(rgb(26, 39, 6), rgb(109, 174, 6),rgb(236, 253, 196));
     }
 
     #logo1 {
@@ -1363,12 +1363,32 @@ label {
         margin-left: 2rem;
         margin-top: 4rem;
         letter-spacing: 3px;
-      
-        
-    }
+     }
 
     .logo #logo1 {
         width: 100%;
+    }
+    .services-08-item .services-08-content h3 {
+       font-size: 1rem;
+    }
+    
+    .services-08-item .services-08-content p {
+        font-size: 0.8rem;
+        margin-left:-1rem;
+        width: 110%;
+    }
+    .services-08-item .services-08-content ul li{
+        margin-left: -2rem;
+        font-size: 0.8rem;
+    } 
+    .about-content h4{
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 25px;
+        
+    }
+    #formElem{
+        margin-top: 1rem;
     }
 
 }
