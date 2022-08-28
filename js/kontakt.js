@@ -1,3 +1,4 @@
+console.log("object");
 let current_form = document.getElementById("formElem")
 
 current_form.addEventListener("submit", function (event) {
@@ -36,3 +37,4 @@ current_form.addEventListener("submit", function (event) {
 
 
 });
+

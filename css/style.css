@@ -1357,7 +1357,7 @@ label {
 
     .logo h5 {
         font-size: 1.4rem;
-        display: block;
+        /* display: block; */
         color: rgb(255, 255, 255);
         text-shadow: 4px 3px 4px black;
         margin-left: 2rem;
@@ -1369,7 +1369,8 @@ label {
         width: 100%;
     }
     .services-08-item .services-08-content h3 {
-       font-size: 1rem;
+       font-size: 0.9rem;
+       word-break: keep-all;
     }
     
     .services-08-item .services-08-content p {
@@ -1379,16 +1380,22 @@ label {
     }
     .services-08-item .services-08-content ul li{
         margin-left: -2rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     } 
     .about-content h4{
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 0.9rem;
+        font-weight: 400;
         line-height: 25px;
         
     }
     #formElem{
         margin-top: 1rem;
+    }
+    .section-title h3{
+        font-size: 1.3rem;
+    }
+    .section-title h4{
+        font-size: 1rem;
     }
 
 }
