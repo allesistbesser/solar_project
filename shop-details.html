@@ -1,30 +1,32 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Mini Solar Shop</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="./img/icon/fav_icon2.png">
-        <!-- Place favicon.ico in the root directory -->
 
-		<!-- CSS here -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="font-flaticon/flaticon.css">
-        <link rel="stylesheet" href="css/dripicons.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="css/meanmenu.css">
-        <link rel="stylesheet" href="css/default.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-      <!-- header -->
-      <header class="header-area header-three">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mini Solar Shop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/icon/fav_icon2.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="font-flaticon/flaticon.css">
+    <link rel="stylesheet" href="css/dripicons.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header-area header-three">
         <div class="header-top second-header d-none d-md-block">
             <div class="container">
                 <div class="row align-items-center justify-content-end">
@@ -34,21 +36,19 @@
                                 <li>
                                     <i class="fas fa-envelope"></i>
 
-                                    <span>Minisolarsysteme@gmail.com</span>
+                                    <span id="mail1"></span>
                                 </li>
                                 <li>
                                     <i class="far fa-map-marker-alt"></i>
-                                    <span>32105 Bad Salzuflen , NRW</span>
+                                    <span id="adres1"></span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 d-none d-lg-block">
                         <div class="header-social text-right">
-                            <span>
-                                <a href="#" title="Facebook"><i class="fab fa-facebook white-color"></i></a>
-                                <a href="#" title="Twitter"><i class="fab fa-twitter white-color"></i></a>
-                                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in white-color"></i></a>
+                            <span id="social_media_top">
+                              
                             </span>
                             <!--  /social media icon redux -->
                         </div>
@@ -58,15 +58,13 @@
             </div>
         </div>
         <div id="header-sticky" class="menu-area">
-            <div class="container">
-                <div class="second-menu">
+            <div class="container" >
+                <div class="second-menu" >
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
                                 <a href="index.html"><img id="logo1" src="./img/logo/logo45.png" alt="logo"></a>
-                                <h5>SHOP DETAILS</h5>
-                           
-
+                                <!-- <h5>MINI-SOLAR</h5> -->
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-7">
@@ -74,14 +72,14 @@
                             <div class="main-menu text-right text-xl-right">
                                 <nav id="mobile-menu">
                                     <ul>
-                                       
-                                        <li><a href="index.html">STARTSEITE</a></li>
+                                        
+                                        <li><a href="services.html">PV ANLAGE</a></li>
                                         <li><a href="shop.html">SHOP</a></li>
                                         <li><a href="faq.html">F&A</a></li>
                                         <li><a href="about.html">ÜBER UNS</a></li>
                                         <li><a href="contact.html">KONTAKT</a></li>
 
-                                   
+
                                     </ul>
                                 </nav>
                             </div>
@@ -102,92 +100,83 @@
             </div>
         </div>
     </header>
-        <!-- header-end -->
-        <!-- offcanvas-area -->
-        <div class="offcanvas-menu">
-            <span class="menu-close"><i class="fas fa-times"></i></span>
-            <form role="search" method="get" id="searchform" class="searchform"
-                action="http://wordpress.zcube.in/xconsulta/">
-                <input type="text" name="s" id="search" value="" placeholder="Search" />
-                <button><i class="fa fa-search"></i></button>
-            </form>
-    
-    
-            <div id="cssmenu3" class="menu-one-page-menu-container">
-                <ul id="menu-one-page-menu-2" class="menu">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Startseite</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">Über uns</a>
-                    </li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="services.html">Services</a>
-                    </li>
-                    <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="pricing.html">Pricing </a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="team.html">Team </a></li>
-                                
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="projects.html">Gallery Study</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="blog.html">Blog</a></li> -->
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-    
-            <div id="cssmenu2" class="menu-one-page-menu-container">
-                <ul id="menu-one-page-menu-1" class="menu">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+8 12
-                                3456897</span></a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                            href="mailto:Minisolarsysteme@gmail.com">Minisolarsysteme@gmail.com</a></li>
-                </ul>
+    <!-- header-end -->
+
+    <!-- offcanvas-area -->
+    <div class="offcanvas-menu">
+        <span class="menu-close"><i class="fas fa-times"></i></span>
+        <form role="search" method="get" id="searchform" class="searchform"
+            action="http://wordpress.zcube.in/xconsulta/">
+            <input type="text" name="s" id="search" value="" placeholder="Search" />
+            <button><i class="fa fa-search"></i></button>
+        </form>
+
+
+        <div id="cssmenu3" class="menu-one-page-menu-container">
+            <ul id="menu-one-page-menu-2" class="menu">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Startseite</a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">Über uns</a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="services.html">Services</a>
+                </li>
+               
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="cssmenu2" class="menu-one-page-menu-container">
+            <ul id="menu-one-page-menu-1" class="menu">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span id="phone1"></span></a></li>
+                <li id="mail3" class="menu-item menu-item-type-custom menu-item-object-custom"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas-overly"></div>
+    <!-- offcanvas-end -->
+    <!-- main-area -->
+    <main id="main">
+
+        <!-- search-popup -->
+        <div class="modal fade bs-example-modal-lg search-bg popup1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content search-popup">
+                    <div class="text-center">
+                        <a href="#" class="close2" data-dismiss="modal" aria-label="Close">× close</a>
+                    </div>
+                    <div class="row search-outer">
+                        <div class="col-md-11"><input type="text" placeholder="Search for products..." /></div>
+                        <div class="col-md-1 text-right"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-            <div class="offcanvas-overly"></div>
-                 <!-- offcanvas-end -->
-        <!-- main-area -->
-        <main>
-            
-            <!-- search-popup -->
-		<div class="modal fade bs-example-modal-lg search-bg popup1" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content search-popup">
-					<div class="text-center">
-						<a href="#" class="close2" data-dismiss="modal" aria-label="Close">× close</a>
-					</div>
-					<div class="row search-outer">
-						<div class="col-md-11"><input type="text" placeholder="Search for products..." /></div>
-						<div class="col-md-1 text-right"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /search-popup -->
-            <!-- breadcrumb-area -->
-             <section class="breadcrumb-area d-md-flex d-none align-items-center" style="background-image:url(./img/shop/hesap_makinesi.jpeg); background-size: cover;">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-lg-12">
-                            <div class="breadcrumb-wrap text-left">
-                                <div class="breadcrumb-title">
-                                    <h2>Shop Details</h2>    
-                                    <div class="breadcrumb-wrap">
-                              
-                                <!-- <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Pricing</li>
-                                    </ol>
-                                </nav> -->
-                            </div>
+        <!-- /search-popup -->
+        <!-- breadcrumb-area -->
+        <section class="breadcrumb-area d-md-flex d-none align-items-center"
+            style="background-image:url(./img/shop/hesap_makinesi.jpeg); background-size: cover;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="breadcrumb-wrap text-left">
+                            <div class="breadcrumb-title">
+                                <!-- <h2>Shop Details</h2>     -->
+                                <div class="breadcrumb-wrap">
+
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
+
                 </div>
-            </section>
-            <!-- breadcrumb-area-end -->
-            
-		  
-			<!-- shop-banner-area start -->
+            </div>
+        </section>
+        <!-- breadcrumb-area-end -->
+
+
+        <!-- shop-banner-area start -->
         <section class="shop-banner-area pt-120 pb-90 " data-animation="fadeInUp animated" data-delay=".2s">
             <div class="container">
                 <div class="row">
@@ -196,34 +185,28 @@
                             <ul class="nav" id="myTab2" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                        aria-selected="true"><img src="./img/shop/1.ürün/2.jpeg" alt=""> </a>
+                                        aria-selected="true"> </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                        aria-selected="false"><img src="./img/shop/1.ürün/3.jpeg" alt=""></a>
+                                        aria-selected="false"></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="profile-tab2" data-toggle="tab" href="#profile1" role="tab"
-                                        aria-selected="false"><img src="./img/shop/1.ürün/4.jpeg" alt=""></a>
+                                        aria-selected="false"></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="product-details-img mb-30">
                             <div class="tab-content" id="myTabContent2">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel">
-                                    <div class="product-large-img">
-                                        <img src="./img/shop/1.ürün/2.jpeg" alt="">
-                                    </div>
+                                    
                                 </div>
                                 <div class="tab-pane fade" id="profile" role="tabpanel">
-                                    <div class="product-large-img">
-                                        <img src="./img/shop/1.ürün/3.jpeg" alt="">
-                                    </div>
+                                   
                                 </div>
                                 <div class="tab-pane fade" id="profile1" role="tabpanel">
-                                    <div class="product-large-img">
-                                        <img src="./img/shop/1.ürün/4.jpeg" alt="">
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -231,36 +214,26 @@
                     <div class="col-xl-5">
                         <div class="product-details mb-30">
                             <div class="product-details-title">
-                                <p>Workstead</p>
-                                <h1>Solar-PV 760 Balkonkraftwerke Komplettset – Mit EPP Solarmodul und Hoymiles 600 W Wechselrichter</h1>
+                                <p id="title1">${item.title1}</p>
+                                <h1 id="title2">${item.title2}</h1>
                                 <div class="price details-price pb-30 mb-20">
-                                    <span>$700.00</span>
-                                    <span class="old-price">$820.00</span>
+                                    <span id="price1">${item.price1}</span>
+                                    <span class="old-price" id="price2">${item.price2}</span>
                                 </div>
                             </div>
-                            <p><li>2x Canada-Solar Modul 380 Watt*</li>
-                                <li>1x Hoymiles HM-600 Microwechselrichter</li>
-                                <li>1x Einspeissteckdose+Stromkabel 2 Meter</li>
-                                <li>1x Wieland RST 20i3/2 Steckerverbinder 90°</li>
-                                <li>1x Hoymiles AC Connector</li>
-                                <li>1x Wieland RST20/25 Einbaurahmen</li>
-                                <li>1x Wieland RST 20i3/2 Geräteanschluss M25MC4</li>
-                                <li>2x 1 m MC4-Verlängerungskabel | Rot/Schwarz + Stecker (konfigurierbar)</li>
-                                </p>
+                            <p id="content">${item.content}</p>
                             <div class="product-cat mt-30 mb-30">
-                                <span>Category: </span>
-                                <a href="#">furniture,</a>
-                                <a href="#">decor</a>
-                            </div>                            
+                                <span id="category">${item.category}</span>
+                            </div>
                             <div class="product-details-action">
                                 <form action="#">
                                     <div class="plus-minus">
                                         <div class="cart-plus-minus"><input type="text" value="1" /></div>
                                     </div>
-                                    <button class="btn btn-black" type="submit">add to cart</button>                                   
+                                    <button class="btn btn-black" type="submit">add to cart</button>
                                 </form>
                             </div>
-							<div class="product-social mt-45">
+                            <div class="product-social mt-45">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-behance"></i></a>
@@ -281,8 +254,9 @@
                         <div class="bakix-details-tab">
                             <ul class="nav text-center justify-content-center pb-30 mb-50" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#id-desc" role="tab"
-                                        aria-controls="home" aria-selected="true">INSTALLATION DER ANLAGE </a>
+                                    <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#id-desc"
+                                        role="tab" aria-controls="home" aria-selected="true">INSTALLATION DER ANLAGE
+                                    </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="id-add-in" data-toggle="tab" href="#id-add" role="tab"
@@ -295,83 +269,30 @@
                             </ul>
                         </div>
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="id-desc" role="tabpanel" aria-labelledby="desc-tab">
+                            <div class="tab-pane fade show active" id="id-desc" role="tabpanel"
+                                aria-labelledby="desc-tab">
                                 <div class="event-text mb-40">
-                                    <p>Durch das mitgelieferte Steck-Verbindungssystem, ist die Installation sehr einfach und kann ohne Fachkenntnisse von jedermann durchgeführt werden. Die Module werden über die Standardstecker (MC4) mit dem Wechselrichter verbunden. Anschließend nur noch das 230V-Ausgangskabel/Stecker des Wechselrichters mit der mitgelieferten Wieland Dose (Einspeisesteckdose) zusammenstecken. Jetzt ist die Anlage betriebsbereit und kann Strom produzieren. Durch die integrierte Notfallabschaltung erfüllt die Mini Solaranlage alle Sicherheitsanforderungen.</p>
+                                    <p id="installation">${item.installation}</p>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="id-add" role="tabpanel" aria-labelledby="id-add-in">
                                 <div class="additional-info">
                                     <div class="table-responsive">
                                         <h4>Additional information</h4>
-                                        <table class="table">
-                                            <tbody>
-                                                <tr>
-                                                    <th>Weight</th>
-                                                    <td class="product_weight">1.4 oz</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Dimensions</th>
-                                                    <td class="product_dimensions">62 × 56 × 12 in</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Size</th>
-                                                    <td class="product_dimensions">XL, XXL, LG, SM, MD</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <p id="dimensions">${item.dimensions}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="id-rev" role="tabpanel" aria-labelledby="id-r">
                                 <div class="contact-bg02 text-center">
-                            <div class="section-title  mb-50">
-                                <h2>
-                                    Get A Quote
-                                </h2>
-                              
-                            </div>
-                                
-						<form action="mail.php" method="post" class="contact-form mt-30">
-							<div class="row">
-                            <div class="col-lg-6">
-                                <div class="contact-field p-relative c-name mb-30">                                    
-                                    <input type="text" id="firstn" name="firstn" placeholder="First Name" required="">
-                                </div>                               
-                            </div>
-							<div class="col-lg-6">                               
-                                <div class="contact-field p-relative c-email mb-30">                                    
-                                    <input type="text" id="lastn" name="lastn" placeholder="Last Name" required="">
-                                </div>                                
-                            </div>
-							<div class="col-lg-6">                               
-                                <div class="contact-field p-relative c-subject mb-30">                                   
-                                    <input type="text" id="email" name="email" placeholder="Eamil" required="">
+                                    <div class="section-title  mb-50">
+                                        <a href="./contact.html">ein Angebot bekommen</a>
+
+                                    </div>
+
+
+
                                 </div>
-                            </div>		
-                            <div class="col-lg-6">                               
-                                <div class="contact-field p-relative c-subject mb-30">                                   
-                                    <input type="text" id="phone" name="phone" placeholder="Phone No." required="">
-                                </div>
-                            </div>	
-                            <div class="col-lg-12">                               
-                                <div class="contact-field p-relative c-option mb-30">                                      
-                                    <input type="text" id="product-name" name="product-name" placeholder="Product Name" required="">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="contact-field p-relative c-message mb-30">                                  
-                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
-                                </div>
-                                <div class="slider-btn mb-70">                                          
-                                            <button class="btn ss-btn active" data-animation="fadeInRight" data-delay=".8s">Submit Now</button>				
-                                        </div>                             
-                            </div>
-                            </div>
-                        
-                    </form>
-                            
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -379,135 +300,131 @@
             </div>
         </section>
         <!-- product-desc-area end -->
-        
-        </main>
-        <!-- main-area-end -->
-<!-- footer -->
-<footer class="footer-bg footer-p">
-       
-    <div class="footer-top pb-40 pt-20">
-        <div class="container">
-            <div class="row justify-content-between">
 
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="footer-widget mb-30">
-                        <div class="f-widget-title mb-45 col-8">
-                            <img src="./img/logo/logo4.png" alt="img">
-                        </div>
-                      
-                        <div class="f-contact mt-30">
-                            <ul>
+    </main>
+    <!-- main-area-end -->
+    <!-- footer -->
+    <footer class="footer-bg footer-p">
 
-                                <li>
-                                    <i class="icon fal fa-map-marker-check"></i>
-                                    <span>32105 Bad Salzuflen , NRW</span>
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="footer-widget mb-30">
-                        <div class="f-widget-title">
-                            <h2>Our Links</h2>
-                        </div>
-                        <div class="footer-link">
-                            <ul>
-                                <li><a href="index.html">Startseite</a></li>
-                                <li><a href="about.html">Über uns</a></li>
-                                <li><a href="services.html"> Services </a></li>
-                                <!-- <li><a href="#">Term</a></li>
-                               <li><a href="blog.html">Blog </a></li>
-                               
-                               <li><a href="#">Privercy</a></li> -->
-                                <li><a href="#">Support</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="contact.html"> Kontakt</a></li>
-
-                            </ul>
+        <div class="footer-top pb-40 pt-20">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                        <div class="footer-widget mb-30">
+                            <div class="f-widget-title mb-45 col-8">
+                                <img src="./img/logo/logo41.png" alt="img">
+                            </div>
+                            <!-- <div class="footer-link">
+                                Aenean pulvinar laoreet tellus ut tinct. Praesent a lectus egestas, finibus enim sit
+                                amet, mollis lorem. Sed a volutpat velit. Pellet habitant morbi tristique senectus et.
+                            </div> -->
+                            <div class="f-contact mt-30">
+                                <ul>
+                                    <li>
+                                        <i class="icon fal fa-map-marker-check"></i>
+                                        <span id="adres2"></span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                        <div class="footer-widget mb-30">
+                            <div class="f-widget-title">
+                                <h2>Links</h2>
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="index.html">Startseite</a></li>
+                                    <li><a href="about.html">Über uns</a></li>
+                                    <li><a href="services.html"> PV Alage </a></li>
+                                    <!-- <li><a href="#">Term</a></li>
+                                   <li><a href="blog.html">Blog </a></li>
+                                   
+                                   <li><a href="#">Privercy</a></li> -->
+                                    <li><a href="./shop.html">Shop</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="contact.html"> Kontakt</a></li>
 
-                    <div class="footer-widget mb-30">
-                        <div class="f-widget-title">
-                            <h2>Kontakt</h2>
-                        </div>
-                        <div class="f-contact">
-                            <ul>
-                                <li>
-                                    <i class="icon fal fa-phone"></i>
-                                    <span>1800-121-3637<br>+91-7052-101-786</span>
-                                </li>
-                                <li><i class="icon fal fa-envelope"></i>
-                                    <span>
-                                        <a href="mailto:Minisolarsysteme@gmail.com">Minisolarsysteme@gmail.com</a>
-                                        <br>
-                                        <!-- <a href="mailto:help@example.com">help@example.com</a> -->
-                                    </span>
-                                </li>
-
-
-                            </ul>
-
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+
+                        <div class="footer-widget mb-30">
+                            <div class="f-widget-title">
+                                <h2>Kontakt</h2>
+                            </div>
+                            <div class="f-contact">
+                                <ul>
+                                    <li>
+                                        <i class="icon fal fa-phone"></i>
+                                        <span id="phone2"></span>
+                                    </li>
+                                    <li><i class="icon fal fa-envelope"></i>
+                                        <span id="mail2">
+                                                                                     
+                                        </span>
+                                    </li>
+
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-               
             </div>
         </div>
-    </div>
-    <div class="copyright-wrap">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    Copyright © 2021 Capatel All rights reserved.
-                </div>
-                <div class="col-lg-6 text-right text-xl-right">
-                    <ul>
-                        <!-- <li><a href="#">Privercy</a></li>
-                           <li><a href="#">Term &amp; Conditions</a></li>
-                           <li><a href="#">Legal</a></li> -->
-                        <li> <span class="footer-social">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </span></li>
-                    </ul>
-                </div>
+        <div class="copyright-wrap">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        Copyright © 2021 Capatel All rights reserved.
+                    </div>
+                    <div class="col-lg-6 text-right text-xl-right">
+                        <ul>
+                            <!-- <li><a href="#">Privercy</a></li>
+                               <li><a href="#">Term &amp; Conditions</a></li>
+                               <li><a href="#">Legal</a></li> -->
+                            <li> <span class="footer-social" id="social_media_bottom">
+                                  
+                                </span></li>
+                        </ul>
+                    </div>
 
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-        <!-- footer-end -->
+    </footer>
+    <!-- footer-end -->
 
 
 
-		<!-- JS here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/paroller.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/js_isotope.pkgd.min.js"></script>
-        <script src="js/imagesloaded.min.js"></script>
-        <script src="js/parallax.min.js"></script>
-         <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <script src="js/jquery.meanmenu.min.js"></script>
-        <script src="js/parallax-scroll.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/element-in-view.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/paroller.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/js_isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/element-in-view.js"></script>
+    <script src="js/main.js"></script>
+    <script type="module" src="js/shop_details.js"></script>
+    <script type="module" src="js/header_footer.js"></script>
+</body>
+
 </html>

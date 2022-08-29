@@ -1,10 +1,11 @@
-console.log("object");
+import * as info from "./index.js"
+
 let current_form = document.getElementById("formElem")
 
 current_form.addEventListener("submit", function (event) {
   event.preventDefault()
 
-  data = new FormData(event.currentTarget)
+  let data = new FormData(event.currentTarget)
 
   let formInfo = {};
   data.forEach(function (value, key) {
@@ -13,7 +14,7 @@ current_form.addEventListener("submit", function (event) {
   console.log(formInfo);
 
   const postData = async () => {
-    const rawResponse = await fetch('http://127.0.0.1:8000/comments/', {
+    const rawResponse = await fetch(`${info.backend_path}/comments/`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -22,10 +23,11 @@ current_form.addEventListener("submit", function (event) {
       body: JSON.stringify(formInfo)
     });
     const content = await rawResponse.json();
-    console.log("rawresponse",content);
+    current_form.reset()
+    
   }
   const getData = async () => {
-    let response = await fetch('http://127.0.0.1:8000/comments/')
+    let response = await fetch(`${info.backend_path}/comments/`)
     let data = await response.json();
   console.log("get data",data);  
   }
@@ -33,6 +35,7 @@ current_form.addEventListener("submit", function (event) {
   
  postData()
  .then(()=> getData())
+ .then(()=> alert("Herzlichen Dank für Kontakt"))
 
 
 
