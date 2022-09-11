@@ -13,11 +13,11 @@ document.querySelector("#phone2").innerHTML = info.phone
 // title
 document.getElementsByTagName("title")[0].innerHTML = info.title
 
-//add copyright
+// add social meida top
 document.querySelector("#social_media_top").innerHTML = `<a href="${info.facebook}" title="Facebook"><i class="fab fa-facebook white-color"></i></a>
 <a href="${info.twitter}" title="Twitter"><i class="fab fa-twitter white-color"></i></a>
 <a href="${info.linkedin}" title="LinkedIn"><i class="fab fa-linkedin-in white-color"></i></a>`
-
+//add copyright
 document.querySelector(".copyright-wrap").innerHTML =`
 <div class="container">
 <div class="row align-items-center">
@@ -35,7 +35,7 @@ document.querySelector(".copyright-wrap").innerHTML =`
 </div>
 </div>
 `
-// add socila meida icon
+// add socila meida bottom
 document.querySelector("#social_media_bottom").innerHTML = `<a href="${info.facebook}"><i class="fab fa-facebook-f"></i></a>
 <a href="${info.twitter}"><i class="fab fa-twitter"></i></a>
 <a href="${info.instagram}"><i class="fab fa-instagram"></i></a>`

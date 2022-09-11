@@ -29,15 +29,14 @@ current_form.addEventListener("submit", function (event) {
   const getData = async () => {
     let response = await fetch(`${info.backend_path}/comments/`)
     let data = await response.json();
-  console.log("get data",data);  
+  // console.log("get data",data);  
   }
    
   
  postData()
  .then(()=> getData())
  .then(()=> alert("Herzlichen Dank für Kontakt"))
-
-
+ .catch(()=> alert('unerwartet fehler, bitte schreiben Sie uns ein Email'))
 
 });
 

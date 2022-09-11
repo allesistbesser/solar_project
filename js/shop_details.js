@@ -5,7 +5,7 @@ const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get("id");
 
 let backend_path = info.backend_path
-let products = JSON.parse(localStorage.products)
+let products = JSON.parse(sessionStorage.products)
 
 products.forEach(item=>{
   if (item.id == id){
