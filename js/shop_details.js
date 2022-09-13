@@ -32,4 +32,4 @@ products.forEach(item=>{
 })
 
 // footer 
-document.querySelector("#mail").innerHTML = info.mail;
+// document.querySelector("#mail").innerHTML = info.mail;

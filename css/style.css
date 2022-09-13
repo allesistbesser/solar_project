@@ -156,6 +156,7 @@ h6 {
     font-style: normal;
     font-weight: 700;
     text-transform: normal;
+    text-shadow: 1px 1px 3px rgb(104, 100, 100);
 }
 
 h1 a,
@@ -497,7 +498,8 @@ label {
 
 .main-menu ul li:hover>a,
 .header-three .main-menu ul li a:hover {
-    color: rgb(116, 212, 31);
+    color: rgb(95, 196, 6);
+    text-decoration: underline;
 }
 
 .main-menu ul li:hover>a::before {
@@ -592,6 +594,7 @@ label {
 
 #mobile-menu a {
     font-size: 1.2rem;
+    
 }
 
 .right-menu li {
@@ -11202,4 +11205,8 @@ div.single-cta:last-child {
 .how-box h3 {
     color: #fff;
     font-size: 24px;
+}
+
+#shopForm {
+    min-height: 50vh;
 }

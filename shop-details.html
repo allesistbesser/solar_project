@@ -88,7 +88,8 @@
                             <a href="contact.html" class="menu-tigger"><i class="fal fa-search"></i></a>
                         </div>
                         <div class="col-xl-2 col-lg-2 text-right d-none d-lg-block mt-15 mb-15">
-                            <a href="shop.html" class="btn ss-btn">Angebot</a>
+                            <a href="shop.html" class="btn ss-btn"><i
+                                class="fas fa-shopping-cart black-color"></i></i></a>
                         </div>
 
 
@@ -105,10 +106,9 @@
     <!-- offcanvas-area -->
     <div class="offcanvas-menu">
         <span class="menu-close"><i class="fas fa-times"></i></span>
-        <form role="search" method="get" id="searchform" class="searchform"
-            action="http://wordpress.zcube.in/xconsulta/">
-            <input type="text" name="s" id="search" value="" placeholder="Search" />
-            <button><i class="fa fa-search"></i></button>
+        <form>
+            <input type="text"  id="search1" value="" placeholder="Google Search" />
+            <button id="search_button"><i class="fa fa-search"></i></button>
         </form>
 
 
@@ -118,7 +118,7 @@
                 </li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">Über uns</a>
                 </li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="services.html">Services</a>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="services.html">pv anlage</a>
                 </li>
                
                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">contact</a>
@@ -214,8 +214,8 @@
                     <div class="col-xl-5">
                         <div class="product-details mb-30">
                             <div class="product-details-title">
-                                <p id="title1">${item.title1}</p>
-                                <h1 id="title2">${item.title2}</h1>
+                                <h1 id="title1">${item.title1}</h1>
+                                <h3 id="title2">${item.title2}</h3>
                                 <div class="price details-price pb-30 mb-20">
                                     <span id="price1">${item.price1}</span>
                                     <span class="old-price" id="price2">${item.price2}</span>
@@ -226,12 +226,12 @@
                                 <span id="category">${item.category}</span>
                             </div>
                             <div class="product-details-action">
-                                <form action="#">
+                                <!-- <form action="#">
                                     <div class="plus-minus">
                                         <div class="cart-plus-minus"><input type="text" value="1" /></div>
                                     </div>
-                                    <button class="btn btn-black" type="submit">add to cart</button>
-                                </form>
+                                    <button class="btn btn-primary" type="submit">add to cart</button>
+                                </form> -->
                             </div>
                             <div class="product-social mt-45">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>

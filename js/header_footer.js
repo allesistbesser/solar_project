@@ -21,10 +21,11 @@ document.querySelector("#social_media_top").innerHTML = `<a href="${info.faceboo
 document.querySelector(".copyright-wrap").innerHTML =`
 <div class="container">
 <div class="row align-items-center">
-    <div class="col-lg-6">
-    Copyright © 2022 MINI SOLAR COMPANY All rights reserved
+    <div class="col-lg-8">
+    Copyright © 2022 MINI SOLAR COMPANY All rights reserved - Designed by Mesut@2022 
     </div>
-    <div class="col-lg-6 text-right text-xl-right">
+   
+    <div class="col-lg-4 text-right text-xl-right">
         <ul>
             <li> <span class="footer-social" id="social_media_bottom">
                 </span>
@@ -56,3 +57,8 @@ metaKewwords.forEach(item => {
     if (item.name == "keywords") {item.content = info.metaContent}
 });
 
+
+document.getElementById('search_button').addEventListener('click', ()=>{
+    let name = document.querySelector("#search1").value
+    window.open (`https://www.google.de/search?q=${name}`,"_blank")
+})

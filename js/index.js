@@ -1,4 +1,5 @@
 export const backend_path = "http://minisolarsysteme.de"
+// export const backend_path = "http://127.0.0.1:8000"
 
 export let mail = "minisolarsysteme@gmail.com"
 export let adres = "Asper str. 6 - 32108 Bad Salzuflen"
