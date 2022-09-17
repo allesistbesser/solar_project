@@ -41,6 +41,10 @@ body {
      
 }
 
+.product-large-img img{
+    width: 700px !important;
+}
+
 .mean-container a.meanmenu-reveal span {
     background: no-repeat;
     display: block;
@@ -7580,7 +7584,7 @@ img {
 }
 
 .product-details-img {
-    margin-right: 180px;
+    margin-right: 5px;
     overflow: hidden;
 }
 
