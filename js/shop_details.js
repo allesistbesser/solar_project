@@ -22,7 +22,7 @@ products.forEach(item=>{
     document.querySelector("#title1").innerHTML = `${item.title1}`;
     document.querySelector("#title2").innerHTML = `${item.title2}`;
     document.querySelector("#price1").innerHTML = `€${item.price1}`;
-    document.querySelector("#price2").innerHTML = `€${item.price2}`;
+    document.querySelector("#price2").innerHTML = `${item.price2 === null ? "": "€"+item.price2}`;
     document.querySelector("#content").innerHTML = `${item.content}`;
     document.querySelector("#category").innerHTML = `${item.category}`;
     document.querySelector("#installation").innerHTML = `${item.installation}`;
