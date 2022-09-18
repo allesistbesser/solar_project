@@ -24,9 +24,9 @@ const handleProducts = (selectValue, text) => {
   getProducts()
     .then((products) => {
       products.sort(function (a, b) {
-        if (text.includes('low to high')) {
+        if (text.includes('niedrig bis hoch')) {
           return a[selectValue] - b[selectValue];
-        } else if (text.includes('high to low')) {
+        } else if (text.includes('hoch bis niedrig')) {
           return b[selectValue] - a[selectValue];
         } else {
           return a[selectValue] - b[selectValue];
@@ -47,7 +47,7 @@ const handleProducts = (selectValue, text) => {
                                 </h4>
                                 <div class="price">
                                     <span>€${item.price1}</span>
-                                    <span class="old-price">€${item.price2}</span>
+                                    <span class="old-price">${item.price2 === null ? "": "€"+item.price2}</span>
                                 </div>
                             </div>
                         </div>

@@ -1207,6 +1207,7 @@ label {
     height: 150px;
     background-repeat: no-repeat;
     background-position: 0 center;
+    box-shadow: 1px -1px 25px black;
         
 }
 
