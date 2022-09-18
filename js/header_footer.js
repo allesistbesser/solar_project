@@ -11,12 +11,12 @@ document.querySelector("#phone1").innerHTML = info.phone
 document.querySelector("#phone2").innerHTML = info.phone
 
 // title
-document.getElementsByTagName("title")[0].innerHTML = info.title
+//document.getElementsByTagName("title")[0].innerHTML = info.title
 
 // add social meida top
-document.querySelector("#social_media_top").innerHTML = `<a href="${info.facebook}" title="Facebook"><i class="fab fa-facebook white-color"></i></a>
-<a href="${info.twitter}" title="Twitter"><i class="fab fa-twitter white-color"></i></a>
-<a href="${info.linkedin}" title="LinkedIn"><i class="fab fa-linkedin-in white-color"></i></a>`
+document.querySelector("#social_media_top").innerHTML = `<a href="${info.facebook}" title="Facebook"><i class="fab fa-facebook white-color fa-lg"></i></a>
+<a href="${info.twitter}" title="Twitter"><i class="fab fa-twitter white-color fa-lg"></i></a>
+<a href="${info.instagram}" title="Instagram"><i class="fab fa-instagram white-color fa-lg"></i></a>`
 //add copyright
 document.querySelector(".copyright-wrap").innerHTML =`
 <div class="container">

@@ -8,7 +8,7 @@ export let phone = "+49 111 123 45 67"
 export let facebook = "http://www.facebook.com"
 export let twitter = "http://www.twitter.com"
 export let linkedin = "http://www.linkedin.com"
-export let instagram = "http://www.instagram.com"
+export let instagram = "https://www.instagram.com/minisolarsysteme/"
 export let arbeitszeit = "Montag bis Freitag 09:00 bis 18:30 Uhr und Samstags arbeiten wir bis 15:30 Uhr"
 
 export let favicon = "./img/icon/fav_icon2.png"

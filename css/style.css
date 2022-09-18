@@ -1242,7 +1242,7 @@ label {
 
 .breadcrumb-title h2 {
     margin-top: 2rem;
-   font-size: 58px;
+   font-size: 54px;
    line-height: 1;
    color: rgb(255, 255, 255);
    text-shadow: 8px 8px 5px black;
@@ -1259,6 +1259,9 @@ label {
 .breadcrumb>.active {
     color: #9dd53a;
     font-weight: 500;
+}
+.pvanlage h2{
+    font-size: 1.2rem;
 }
 
 /* 3. slider */
@@ -1432,8 +1435,8 @@ label {
     margin-bottom: 20px;
 }
 
-.slider-content h2 {
-    font-size: 72px;
+.slider-content h1 {
+    font-size: 46px;
     color: #010f2e;
     letter-spacing: 1.0px;
     line-height: 1.2;
@@ -1554,13 +1557,14 @@ label {
     margin-bottom: 25px;
 }
 
-.s-slider-content p {
-    font-size: 20px;
+.s-slider-content h2 {
+    font-size: 20px !important;
     padding-right: 50px;
-    color: #777;
-    line-height: 30px;
+    color: rgb(32, 31, 31);
+    line-height: 30px !important;
     text-align: justify;
     text-justify: inter-word;
+    font-weight: 100;
 }
 
 .btn.ss-btn {
