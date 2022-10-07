@@ -22,7 +22,7 @@ document.querySelector(".copyright-wrap").innerHTML =`
 <div class="container">
 <div class="row align-items-center">
     <div class="col-lg-8">
-    Copyright © 2022 MINI SOLAR COMPANY All rights reserved - Designed by Mesut@2022 
+    Copyright © 2022 MINI SOLAR COMPANY All rights reserved -  <a style="color:aquamarine;"href="https://www.linkedin.com/in/mesuttepebas/" target="_blank"></i>Designed by Mesut@2022</a> 
     </div>
    
     <div class="col-lg-4 text-right text-xl-right">

@@ -46,8 +46,11 @@ const handleProducts = (selectValue, text) => {
                                 <h4 class="pro-title"><a href="shop-details.html?id=${item.id}">${item.title2}</a>
                                 </h4>
                                 <div class="price">
-                                    <span>€${item.price1}</span>
-                                    <span class="old-price">${item.price2 === null ? "": "€"+item.price2}</span>
+                                    <span style="color:black;">${item.price1} EUR</span>
+                                    <span class="old-price">${item.price2 === null ? "": item.price2+" EUR"}</span>
+                                </div>
+                                <div >
+                                    <span>inkl 19% MwSt.</span>
                                 </div>
                             </div>
                         </div>
