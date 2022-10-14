@@ -3,7 +3,7 @@ export const backend_path = "https://minisolarsysteme.de"
 
 export let mail = "minisolarsysteme@gmail.com"
 export let adres = "Asper str. 6 - 32108 Bad Salzuflen"
-export let phone = "+49 111 123 45 67"
+export let phone = ""
 
 export let facebook = "http://www.facebook.com"
 export let twitter = "http://www.twitter.com"

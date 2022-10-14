@@ -1362,7 +1362,7 @@ label {
     .progress {
         margin-bottom: 20px;
     }
-
+   
     .menu-area {
         background-image: linear-gradient(rgb(26, 39, 6), rgb(109, 174, 6),rgb(236, 253, 196));
     }
@@ -5999,12 +5999,14 @@ li.has-sub.has-mega-menu:hover>ul>li>ul {
         padding: 10px 25px;
         flex: 1 0 calc(50%);
     }
+  
 }
 
 @media screen and (min-width: 992px) {
     li.mega-menu-column {
         flex: 1 0 calc(33.333%);
     }
+ 
 }
 
 .main-menu .has-sub .mega-menu-column li {
@@ -8459,6 +8461,8 @@ p.checkout-coupon input[type="text"] {
     }
 }
 
+
+
 .zcube-login h3 {
     font-size: 30px;
 }
@@ -8531,6 +8535,15 @@ p.checkout-coupon input[type="text"] {
         margin-bottom: 10px;
         display: block;
     }
+}
+@media only screen and (max-width: 992px) {
+    #shopButton{
+        position: absolute;
+        top: 110px;
+        left: 10px;
+        background-color: none;
+        display: inline-block;
+       }
 }
 
 /*Services Category*/
