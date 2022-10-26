@@ -155,12 +155,12 @@ h4,
 h5,
 h6 {
     font-family: 'Rubik', sans-serif;
-    color: #010f2e;
+    color: #000000;
     margin-top: 0px;
     font-style: normal;
     font-weight: 700;
     text-transform: normal;
-    text-shadow: 1px 1px 3px rgb(104, 100, 100);
+    /* text-shadow: 1px 1px 3px rgb(104, 100, 100); */
 }
 
 h1 a,
